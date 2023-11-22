@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class JokeReturnService {
+public class JokeReturnService implements JokeService {
     private final JokeGenerator jokeGenerator;
 
     @Autowired
